@@ -24,7 +24,7 @@
     <img alt="input" src="./input.png">
 </h1>
 
-## :heavy_check_mark: :computer: :arrow_right: Output
+## :heavy_check_mark: :computer: :arrow_right: Result
 
 <h1 align="center">
     <img alt="Output" src="./output.gif">

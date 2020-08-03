@@ -42,7 +42,7 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-The ***Client Invoke***,  is a Project that **use the client.invoke method** when click a button it. With the purpose of training ***ZAF***, using ***ZAT***, made with **ZAT**, **ZAF**, **Javascript**, **HTML5** and **Zendesk Garden**.
+The ***Client Invoke***,  is a Project that **use the client.invoke method** when click a button it, put text in Comment Section. With the purpose of training ***ZAF***, using ***ZAT***, made with **ZAT**, **ZAF**, **Javascript**, **HTML5** and **Zendesk Garden**.
 
 ## 🤔 How to contribute
 

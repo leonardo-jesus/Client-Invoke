@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/@zendeskgarden/css-bedrock@7.0.21,npm/@zendeskgarden/css-utilities@4.3.0">
+</head>
+<body>
+    <button onclick="buttonPressed()">Click here to append a text to the ticket</button>
+    <script src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
+  <script>
+    var client = ZAFClient.init();
+    client.invoke('resize', { width: '100%', height: '200px' });
+
+    function buttonPressed() {
+        client.invoke('ticket.comment.appendText', 'We will solve your problem')
+        .then(function() {
+            console.log('text has been appended');
+    });
+    }
+    
+  </script>
+</body>
+</html>
